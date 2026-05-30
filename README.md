@@ -59,7 +59,15 @@ language-specific dependency relations used in this treebank are:
 
 # Acknowledgments
 
-We thank all contributors to the annotation of the Ordos treebank.
+The Ordos treebank was created by Wenchao Li and Haitao Liu. The annotation
+of lemmas, part-of-speech tags, morphological features, and dependency
+relations was carried out manually according to the Universal Dependencies
+guidelines. Some of the example sentences are drawn from Georg (2003).
+
+We are especially grateful to Daniel Zeman for his guidance in setting up the
+treebank repository and for his help with the Universal Dependencies workflow.
+We also thank the Universal Dependencies community for their support
+during the preparation and release of this treebank.
 
 ## References
 
