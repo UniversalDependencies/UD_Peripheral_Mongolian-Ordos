@@ -256,22 +256,22 @@
 # sent_id = mvf_ordos-35
 # text = gurb.uul
 # text[eng] = three together
-1	gurb.uul	gurba	NUM	_	Derivation=Collective|NumType=Card	0	root	_	_
+1	gurb.uul	gurba	NUM	_	NumType=Card	0	root	_	_
 
 # sent_id = mvf_ordos-36
 # text = gurban.tai
 # text[eng] = three times
-1	gurban.tai	gurba	NUM	_	Derivation=Multiplicative|NumType=Card	0	root	_	_
+1	gurban.tai	gurba	NUM	_	NumType=Card	0	root	_	_
 
 # sent_id = mvf_ordos-37
 # text = gurba.da
 # text[eng] = to do three times
-1	gurba.da	gurba	NUM	_	Derivation=Iterative|NumType=Card	0	root	_	_
+1	gurba.da	gurba	NUM	_	NumType=Card	0	root	_	_
 
 # sent_id = mvf_ordos-38
 # text = gurba.lji.la
 # text[eng] = to do three together
-1	gurba.lji.la	gurba	NUM	_	Derivation=Collective|NumType=Card	0	root	_	_
+1	gurba.lji.la	gurba	NUM	_	NumType=Card	0	root	_	_
 
 # sent_id = mvf_ordos-39
 # text = bags-iin-iin
@@ -366,12 +366,12 @@
 # text[eng] = the man has come
 1	kün	kün	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	yabusan	yabu	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	bain	bai	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux	_	_
+3	bain	bai	AUX	_	Mood=Ind|Tense=Pres	2	aux	_	_
 
 # sent_id = mvf_ordos-52
 # text = küni yabu-san-iig bi üjisen
 # text[eng] = I saw that the man came
-1	küni	küni	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
+1	küni	küni	NOUN	_	Case=Nom|Number=Sing	2	nmod:tmod	_	_
 2	yabu-san-iig	yabu	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
 3	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	üjisen	üj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -402,7 +402,7 @@
 # text = tere gurban sara dotoro gar-san küüked
 # text[eng] = the children born during those three months
 1	tere	tere	DET	_	PronType=Dem	6	det	_	_
-2	gurban	gurba	NUM	_	Derivation=Multiplicative|NumType=Card	6	nummod	_	_
+2	gurban	gurba	NUM	_	NumType=Card	6	nummod	_	_
 3	sara	sara	NOUN	_	Case=Nom|Number=Plur	6	nmod:tmod	_	_
 4	dotoro	dotoro	ADV	_	_	6	advmod	_	_
 5	gar-san	gar	VERB	_	Tense=Past|VerbForm=Part	6	acl	_	_
@@ -411,7 +411,7 @@
 # sent_id = mvf_ordos-57
 # text = üge keleji cida-san-güee
 # text[eng] = he could not say a word
-1	üge	üge	ADV	_	Polarity=Neg	0	root	_	_
+1	üge	üge	ADV	_	_	0	root	_	_
 2	keleji	kel	NOUN	_	Case=Acc|Number=Sing	1	parataxis	_	_
 3	cida-san-güee	cida	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	1	parataxis	_	_
 
