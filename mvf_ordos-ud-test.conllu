@@ -1,0 +1,707 @@
+# sent_id = mvf_ordos-1
+# text = Bi nom unšaba.
+# text[eng] = I read the book.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	nom	nom	NOUN	_	Case=Acc	3	obj	_	_
+3	unšaba	unša	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = mvf_ordos-2
+# text = Ter ereg deer suuji baina.
+# text[eng] = He is sitting on the riverbank.
+1	Ter	ter	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ereg	ereg	NOUN	_	Case=Nom	3	obl	_	_
+3	deer	deer	ADP	_	_	4	case	_	_
+4	suuji	suu	VERB	_	VerbForm=Conv	5	advcl	_	_
+5	baina	bai	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mvf_ordos-3
+# text = Tanii mori sayahan irlee.
+# text[eng] = Your horse just arrived.
+1	Tanii	ta	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
+2	mori	mori	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+3	sayahan	sayahan	ADV	_	_	4	advmod	_	_
+4	irlee	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mvf_ordos-4
+# text = Bi ene nomiig camd ögöj baina.
+# text[eng] = I am giving you this book.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	ene	ene	DET	_	PronType=Dem	3	det	_	_
+3	nomiig	nom	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+4	camd	ci	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	5	iobj	_	_
+5	ögöj	ög	VERB	_	VerbForm=Conv	6	xcomp	_	_
+6	baina	bai	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = mvf_ordos-5
+# text = Gertee hürgej ögööröi.
+# text[eng] = Please take him/her home.
+1	Gertee	ger	NOUN	_	Case=Dat|Number=Sing	2	obl	_	_
+2	hürgej	hürg	VERB	_	VerbForm=Conv	3	xcomp	_	_
+3	ögööröi	ög	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = mvf_ordos-6
+# text = Manai aav temee malladag.
+# text[eng] = My father herds camels.
+1	Manai	manai	DET	_	Number[psor]=Plur|Person[psor]=1|Poss=Yes	2	det:poss	_	_
+2	aav	aav	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+3	temee	temee	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
+4	malladag	mall	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mvf_ordos-7
+# text = Tengeriin unaga boroon orno.
+# text[eng] = Heaven's gift — rain — will fall.
+1	Tengeriin	tenger	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
+2	unaga	unaga	NOUN	_	Case=Nom|Number=Sing	3	appos	_	_
+3	boroon	boroon	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+4	orno	or	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mvf_ordos-8
+# text = Bi camtai yariah husne.
+# text[eng] = I want to talk to you.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	camtai	ci	PRON	_	Case=Com|Number=Sing|Person=2|PronType=Prs	3	obl	_	_
+3	yariah	yaria	VERB	_	VerbForm=Inf	4	xcomp	_	_
+4	husne	hus	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mvf_ordos-9
+# text = Negen khün mod taslasan baina.
+# text[eng] = Someone has cut a tree.
+1	Negen	negen	DET	_	PronType=Ind	2	det	_	_
+2	khün	khün	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+3	mod	mod	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	taslasan	tasla	VERB	_	Tense=Past|VerbForm=Part	5	xcomp	_	_
+5	baina	bai	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mvf_ordos-10
+# text = Nadad tsai baikhgui.
+# text[eng] = I don’t have tea.
+1	Nadad	bi	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+2	tsai	tsai	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	baikhgui	bai	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = mvf_ordos-11
+# text = eljigen jiketei kaan cagaan balgasun-du suuji baiji
+# text[eng] = the donkey-eared king lived in Chaghan Balghasun
+1	eljigen	eljigen	NOUN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	jiketei	jiketei	ADJ	_	Degree=Pos	3	amod	_	_
+3	kaan	kaan	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+4	cagaan	cagaan	ADJ	_	Degree=Pos	5	amod	_	_
+5	balgasun	balgasun	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
+6	suuji	suu	VERB	_	VerbForm=Conv	7	xcomp	_	_
+7	baiji	bai	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-12
+# text = juu-kung-buu kaani urdu-du orojii
+# text[eng] = Juu-Kung-Buu entered the Khan’s palace
+1	juu-kung-buu	juu-kung-buu	PROPN	_	Case=Nom	5	nsubj	_	_
+2	kaani	kaan	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
+3	urdu	urdu	NOUN	_	Case=Dat|Number=Sing	5	obl	_	_
+4	-du	-du	ADP	_	_	3	case	_	_
+5	orojii	or	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-13
+# text = tengeri/n-ees jasu unana
+# text[eng] = snow falls from the sky
+1	tengerinees	tenger	NOUN	_	Case=Abl|Number=Sing	3	obl	_	_
+2	jasu	jasu	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	unana	un	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-14
+# text = erte nege cag-tu
+# text[eng] = once upon a time
+1	erte	erte	ADV	_	_	3	advmod	_	_
+2	nege	nege	NUM	_	NumType=Card	3	nummod	_	_
+3	cagtu	cag	NOUN	_	Case=Dat|Number=Sing	0	root	_	_
+
+# sent_id = mvf_ordos-15
+# text = tere üdür-ees koisinain
+# text[eng] = after that day
+1	tere	tere	DET	_	PronType=Dem	2	det	_	_
+2	üdüre-es	üdür	NOUN	_	Case=Abl|Number=Sing	3	obl	_	_
+3	koisinain	koisinain	ADV	_	_	0	root	_	_
+
+# sent_id = mvf_ordos-16
+# text = ci nada olji ög
+# text[eng] = find [it] for me!
+1	ci	ci	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	nada	bi	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	olji	ol	VERB	_	VerbForm=Conv	4	xcomp	_	_
+4	ög	ög	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-17
+# text = ere-de-en alagdasan
+# text[eng] = she has been killed by her husband
+1	eredeen	ere	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obl:agent	_	_
+2	alagdasan	alagd	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+
+# sent_id = mvf_ordos-18
+# text = sük-eer jabci-
+# text[eng] = to cut with an axe
+1	sük-eer	sük	NOUN	_	Case=Ins|Number=Sing	2	obl	_	_
+2	jabci-	jabci	VERB	_	VerbForm=Inf	0	root	_	_
+
+# sent_id = mvf_ordos-19
+# text = ündür-ees ündür, öbösön-öös bogoni
+# text[eng] = extremely tall, shorter than grass
+1	ündür-ees	ündür	ADJ	_	Case=Abl	2	advmod	_	_
+2	ündür	ündür	ADJ	_	Degree=Pos	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	öbösön-öös	öbösön	NOUN	_	Case=Abl|Number=Sing	5	obl	_	_
+5	bogoni	bogoni	ADJ	_	Degree=Pos	2	conj	_	_
+
+# sent_id = mvf_ordos-20
+# text = sük-eer jabci-
+# text[eng] = to cut with an axe
+1	sük-eer	sük	NOUN	_	Case=Ins|Number=Sing	2	obl	_	_
+2	jabci-	jabci	VERB	_	VerbForm=Inf	0	root	_	_
+
+# sent_id = mvf_ordos-21
+# text = cinggis gitad-laa dailalciba
+# text[eng] = Chinggis fought with the Chinese
+1	cinggis	Cinggis	PROPN	_	Number=Sing	3	nsubj	_	_
+2	gitad-laa	gitad	NOUN	_	Case=Com|Number=Sing	3	obl	_	_
+3	dailalciba	dailalci	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Rcp	0	root	_	_
+
+# sent_id = mvf_ordos-22
+# text = gagcakan nege törösön küüken-tei baisan
+# text[eng] = [they] had only one daughter
+1	gagcakan	gagcakan	ADV	_	_	2	advmod	_	_
+2	nege	nege	NUM	_	NumType=Card	4	nummod	_	_
+3	törösön	törö	VERB	_	Tense=Past|VerbForm=Part	4	amod	_	_
+4	küüken-tei	küüken	NOUN	_	Case=Com|Number=Sing	5	obl	_	_
+5	baisan	bai	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = mvf_ordos-23
+# text = ger-lüü
+# text[eng] = towards the house
+1	ger-lüü	ger	NOUN	_	Case=All|Number=Sing	0	root	_	_
+
+# sent_id = mvf_ordos-24
+# text = tere-lüü
+# text[eng] = in that direction
+1	tere-lüü	tere	PRON	_	Case=All|PronType=Dem	0	root	_	_
+
+# sent_id = mvf_ordos-25
+# text = ter goliin usu öbödög-cee bainaa
+# text[eng] = the water in that river reaches up to the knees
+1	ter	tere	DET	_	PronType=Dem	2	det	_	_
+2	goliin	gol	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
+3	usu	us	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+4	öbödög-cee	öbödög	NOUN	_	Case=Abl|Number=Sing	5	obl	_	_
+5	bainaa	bai	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-26
+# text = küni-cee ündür
+# text[eng] = as tall as a man
+1	küni-cee	küni	NOUN	_	Case=Abl|Number=Sing	2	obl	_	_
+2	ündür	ündür	ADJ	_	Degree=Pos	0	root	_	_
+
+# sent_id = mvf_ordos-27
+# text = nada-duruun bayan bain
+# text[eng] = he is richer than me
+1	nada-duruun	nada	PRON	_	Case=Abl|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+2	bayan	bayan	ADJ	_	Degree=Pos	3	xcomp	_	_
+3	bain	bai	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-28
+# text = bi ekener-tei bain
+# text[eng] = I have a wife
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ekener-tei	ekener	NOUN	_	Case=Com|Number=Sing	3	obl	_	_
+3	bain	bai	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-29
+# text = bi ekener-güei bain
+# text[eng] = I do not have a wife
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ekener-güei	ekener	ADJ	_	Polarity=Neg	3	xcomp	_	_
+3	bain	bai	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-30
+# text = bags-iin-du
+# text[eng] = at the teacher’s
+1	bags-iin-du	bagsh	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+
+# sent_id = mvf_ordos-31
+# text = noyon-oi-luu
+# text[eng] = towards the prince’s (palace)
+1	noyon-oi-luu	noyon	NOUN	_	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+
+# sent_id = mvf_ordos-32
+# text = ger-t-ees
+# text[eng] = from the house
+1	ger-t-ees	ger	NOUN	_	Case=Abl|Number=Sing	0	root	_	_
+
+# sent_id = mvf_ordos-33
+# text = goto-da-ki ger
+# text[eng] = a house located in the city
+1	goto-da-ki	goto	NOUN	_	Case=Dat|Number=Sing	2	amod	_	_
+2	ger	ger	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = mvf_ordos-34
+# text = gurba.kan
+# text[eng] = only three
+1	gurba.kan	gurba	NUM	_	Focus=Only|NumType=Card	0	root	_	_
+
+# sent_id = mvf_ordos-35
+# text = gurb.uul
+# text[eng] = three together
+1	gurb.uul	gurba	NUM	_	Derivation=Collective|Number=Plur|NumType=Card	0	root	_	_
+
+# sent_id = mvf_ordos-36
+# text = gurban.tai
+# text[eng] = three times
+1	gurban.tai	gurba	NUM	_	Derivation=Multiplicative|NumType=Card	0	root	_	_
+
+# sent_id = mvf_ordos-37
+# text = gurba.da
+# text[eng] = to do three times
+1	gurba.da	gurba	NUM	_	Derivation=Iterative|NumType=Card|VerbForm=Inf	0	root	_	_
+
+# sent_id = mvf_ordos-38
+# text = gurba.lji.la
+# text[eng] = to do three together
+1	gurba.lji.la	gurba	NUM	_	Derivation=Collective|NumType=Card|VerbForm=Inf	0	root	_	_
+
+# sent_id = mvf_ordos-39
+# text = bags-iin-iin
+# text[eng] = of his/her/their teacher
+1	bags-iin-iin	bagsh	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+
+# sent_id = mvf_ordos-40
+# text = aka köl-öön uguaasan
+# text[eng] = the elder brother washed his feet
+1	aka	aka	NOUN	_	Number=Sing	4	nsubj	_	_
+2	köl-öön	köl	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
+3	uguaasan	uguah	VERB	_	Tense=Past|VerbForm=Part	4	aux	_	_
+4	_	_	NOUN	_	_	0	root	_	_
+
+# sent_id = mvf_ordos-41
+# text = eke küüke-d-een kaikura-güei
+# text[eng] = the mother does not care for her child
+1	eke	eke	NOUN	_	Number=Sing	4	nsubj	_	_
+2	küüke-d-een	küüken	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+3	kaikura-güei	kaikurah	VERB	_	Mood=Ind|Polarity=Neg|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-42
+# text = bida ger nutug-aas-aan garci üdür udabaa
+# text[eng] = we departed from our home long ago
+1	bida	bid	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	ger	ger	NOUN	_	Number=Sing	3	compound	_	_
+3	nutug-aas-aan	nutug	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Plur|Person[psor]=1	4	obl	_	_
+4	garci	garah	VERB	_	VerbForm=Conv	6	advcl	_	_
+5	üdür	üdür	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
+6	udabaa	udabah	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	_
+
+# sent_id = mvf_ordos-43
+# text = aduu mal-cin jujaara-Ø
+# text[eng] = may your [sg.] horse and cattle herds grow!
+1	aduu	aduu	NOUN	_	Number=Sing	2	compound	_	_
+2	mal-cin	mal	NOUN	_	Number=Plur|Number[psor]=Sing|Person[psor]=2	3	nsubj	_	_
+3	jujaara-Ø	jujaarah	VERB	_	Mood=Opt|Number=Plur|Person=3	0	root	_	_
+
+# sent_id = mvf_ordos-44
+# text = ide-y
+# text[eng] = I/we want to eat
+1	ide-y	idэх	VERB	_	Mood=Des|Number=Plur|Person=1	0	root	_	_
+
+# sent_id = mvf_ordos-45
+# text = bi nege sine malaga olji abuyan
+# text[eng] = I wish to buy a new hat; I wish I could buy a new hat!
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	nege	nege	NUM	_	NumType=Card	4	nummod	_	_
+3	sine	sine	ADJ	_	_	4	amod	_	_
+4	malaga	malagai	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
+5	olji	oloh	VERB	_	VerbForm=Conv	6	compound	_	_
+6	abuyan	abuh	VERB	_	Mood=Opt|Number=Sing|Person=1	0	root	_	_
+
+# sent_id = mvf_ordos-46
+# text = bi camadu keleji ög-yön=ci
+# text[eng] = if only I had told you!
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	camadu	cam	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+3	keleji	kel	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	ög-yön	ög	VERB	_	Mood=Opt|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+5	=ci	=ci	PART	_	_	4	discourse	_	_
+
+# sent_id = mvf_ordos-47
+# text = bicige boroon orotugai
+# text[eng] = may it not rain!
+1	bicige	bi	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	boroon	boroon	NOUN	_	Number=Sing	3	obl	_	_
+3	orotugai	oroh	VERB	_	Mood=Opt|Number=Sing|Person=3|Polarity=Neg	0	root	_	_
+
+# sent_id = mvf_ordos-48
+# text = nokoi kaj-uujai
+# text[eng] = let the dog not bite!
+1	nokoi	nokhoi	NOUN	_	Number=Sing	2	nsubj	_	_
+2	kaj-uujai	kaj	VERB	_	Mood=Imp|Number=Sing|Person=3|Polarity=Neg	0	root	_	_
+
+# sent_id = mvf_ordos-49
+# text = garaa kalaa-uujai, gecee
+# text[eng] = you might burn your hand, pay attention!
+1	garaa	garaa	NOUN	_	Case=Acc|Number=Sing	2	obj	_	_
+2	kalaa-uujai	kala	VERB	_	Mood=Opt|Number=Sing|Person=2	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	gecee	gec	VERB	_	Mood=Imp|Number=Sing|Person=2	2	conj	_	_
+
+# sent_id = mvf_ordos-50
+# text = yabu-san kün
+# text[eng] = the man who has come
+1	yabu-san	yabu	NOUN	_	Number=Sing	2	acl	_	_
+2	kün	kün	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = mvf_ordos-51
+# text = kün yabusan bain
+# text[eng] = the man has come
+1	kün	kün	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	yabusan	yabu	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	root	_	_
+3	bain	bai	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux	_	_
+
+# sent_id = mvf_ordos-52
+# text = küni yabu-san-iig bi üjisen
+# text[eng] = I saw that the man came
+1	küni	küni	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
+2	yabu-san-iig	yabu	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+3	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	üjisen	üj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-53
+# text = küni yabu-san-du bi untaba
+# text[eng] = I was sleeping when the man came
+1	küni	küni	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
+2	yabu-san-du	yabu	NOUN	_	Case=Dat|Number=Sing	4	obl:tmod	_	_
+3	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	untaba	untah	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-54
+# text = güi tuulai
+# text[eng] = a running rabbit
+1	güi	güi	VERB	_	Tense=Pres|VerbForm=Part	2	amod	_	_
+2	tuulai	tuulai	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = mvf_ordos-55
+# text = ös abku cag boloo-ügüei
+# text[eng] = the time to take revenge has not yet come
+1	ös	ös	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	abku	abku	VERB	_	VerbForm=Inf	4	acl	_	_
+3	cag	cag	NOUN	_	Case=Nom|Number=Sing	4	obl	_	_
+4	boloo-ügüei	boloh	VERB	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-56
+# text = tere gurban sara dotoro gar-san küüked
+# text[eng] = the children born during those three months
+1	tere	tere	DET	_	PronType=Dem	6	det	_	_
+2	gurban	gurba	NUM	_	Derivation=Multiplicative|NumType=Card	6	nummod	_	_
+3	sara	sara	NOUN	_	Case=Nom|Number=Plur	6	nmod:tmod	_	_
+4	dotoro	dotoro	ADP	_	_	6	advmod	_	_
+5	gar-san	gar	VERB	_	Tense=Past|VerbForm=Part	6	acl	_	_
+6	küüked	küüked	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
+
+# sent_id = mvf_ordos-57
+# text = üge keleji cida-san-güee
+# text[eng] = he could not say a word
+1	üge	üge	ADV	_	Polarity=Neg	4	advmod	_	_
+2	keleji	kel	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+3	cida-san-güee	cida	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	_
+
+# sent_id = mvf_ordos-58
+# text = temeendu yabu-ku-im
+# text[eng] = I will go looking for the camels
+1	temeendu	temeen	NOUN	_	Case=Dat|Number=Plur	2	obl	_	_
+2	yabu-ku-im	yabu	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-59
+# text = alaga jodo-ku bicigiin surguul
+# text[eng] = striking the palm, [that is] the school of letters
+1	alaga	alaga	NOUN	_	Case=Acc|Number=Sing	2	obj	_	_
+2	jodo-ku	jod	VERB	_	VerbForm=Inf	0	root	_	_
+3	bicigiin	bicig	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
+4	surguul	surguul	NOUN	_	Case=Nom|Number=Sing	2	conj	_	_
+
+# sent_id = mvf_ordos-60
+# text = bi üji-k-ees idesen bain
+# text[eng] = apart from seeing it, I also ate it
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	üji-k-ees	üj	VERB	_	Tense=Past|VerbForm=Conv	4	advcl	_	_
+3	idesen	id	VERB	_	Tense=Past|VerbForm=Part	4	compound	_	_
+4	bain	bai	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-61
+# text = mini ene kürgenii ta teneg geji kele-deg
+# text[eng] = you keep calling this son-in-law of mine stupid
+1	mini	mini	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+2	ene	ene	DET	_	PronType=Dem	3	det	_	_
+3	kürgenii	kürgen	NOUN	_	Case=Gen|Number=Sing|Person[psor]=1	6	obj	_	_
+4	ta	ta	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+5	teneg	teneg	ADJ	_	Degree=Pos	6	xcomp	_	_
+6	gele-deg	kel	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-62
+# text = ene kün ide-deg yum bisi
+# text[eng] = this is not something people eat
+1	ene	ene	DET	_	PronType=Dem	2	det	_	_
+2	kün	kün	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+3	ide-deg	ide	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl	_	_
+4	yum	yum	NOUN	_	Number=Sing	5	cop	_	_
+5	bisi	bis	VERB	_	Mood=Ind|Polarity=Neg|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-63
+# text = aim-tagai kün
+# text[eng] = fearful person
+1	aim-tagai	aim	ADJ	_	Degree=Pos	2	amod	_	_
+2	kün	kün	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = mvf_ordos-64
+# text = dusun bara.mai deng
+# text[eng] = a lamp which consumes much oil
+1	dusun	dusun	VERB	_	Tense=Pres|VerbForm=Part	3	acl	_	_
+2	bara.mai	bara	NOUN	_	Case=Acc|Number=Sing	1	obj	_	_
+3	deng	deng	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = mvf_ordos-65
+# text = yabu.si-ügüei
+# text[eng] = impossible to go
+1	yabu.si-ügüei	yabu	VERB	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Inf	0	root	_	_
+
+# sent_id = mvf_ordos-66
+# text = öglööni bos-ci ündür mudundaaraan gar-ci. . .
+# text[eng] = (he) rose in the morning, climbed his high tree and...
+1	öglööni	öglöö	NOUN	_	Case=Acc|Number=Sing	2	obl	_	_
+2	bos-ci	bos	VERB	_	Tense=Past|VerbForm=Conv	4	acl	_	_
+3	ünder	ünder	ADJ	_	Degree=Pos	4	amod	_	_
+4	mudundaaraan	mudundah	VERB	_	Tense=Pres|VerbForm=Inf	6	acl	_	_
+5	gar-ci	gar	VERB	_	Tense=Past|VerbForm=Inf	6	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = mvf_ordos-67
+# text = bi cida-n yada-n kiiy
+# text[eng] = I will do what I can (literally: ‘being able, not being able’)
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	cida-n	cida	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf	4	acl	_	_
+3	yada-n	yada	VERB	_	Tense=Pres|VerbForm=Inf	4	acl	_	_
+4	kiiy	kih	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-68
+# text = öglööni bos-ci ündür mudundaaraan gar-ci. . .
+# text[eng] = (he) rose in the morning, climbed his high tree and...
+1	öglööni	öglöö	NOUN	_	Case=Acc|Number=Sing	2	obl	_	_
+2	bos-ci	bos	VERB	_	Tense=Past|VerbForm=Conv	4	acl	_	_
+3	ünder	ünder	ADJ	_	Degree=Pos	4	amod	_	_
+4	mudundaaraan	mudundah	VERB	_	Tense=Pres|VerbForm=Inf	6	acl	_	_
+5	gar-ci	gar	VERB	_	Tense=Past|VerbForm=Inf	6	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = mvf_ordos-69
+# text = kara budaa ide-ji bai-ji karada-ji bain
+# text[eng] = he has been eating plain millet and (now) he is sick
+1	kara	kara	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	budaa	budaa	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+3	ide-ji	ide	VERB	_	Tense=Pres|VerbForm=Conv	4	acl	_	_
+4	bai-ji	bai	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
+5	karada-ji	karada	ADJ	_	Degree=Pos	6	amod	_	_
+6	bain	bai	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-70
+# text = bagbaakai cino deilseni üj-eed, cinondu kelebe. . .
+# text[eng] = the bat saw that the wolf had won, and said to the wolf. . .
+1	bagbaakai	bagba	PRON	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	cino	cino	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+3	deilseni	deil	VERB	_	Tense=Past|VerbForm=Part	4	acl	_	_
+4	üj-eed	üj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
+5	cinondu	cino	VERB	_	Tense=Pres|VerbForm=Conv	0	root	_	_
+6	kelebe	kel	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	xcomp	_	_
+
+# sent_id = mvf_ordos-71
+# text = tandu gal bai/g-uun, nada ög
+# text[eng] = if you have a light (fire), give (it) to me!
+1	tandu	tan	PRON	_	Case=Nom|Number=Sing|Person=2	2	nsubj	_	_
+2	gal	gal	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	bai/g-uun	bai	VERB	_	Polarity=Neg|Tense=Pres|VerbForm=Inf	0	root	_	_
+4	nada	nad	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	ög	ög	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	xcomp	_	_
+
+# sent_id = mvf_ordos-72
+# text = kiilee ge-beci, kiisen yum ügüee
+# text[eng] = although he says/said that he did (it), he has not done a thing
+1	kiilee	kiil	NOUN	_	Case=Nom|Number=Sing	2	acl	_	_
+2	ge-beci	ge	VERB	_	Tense=Pres|VerbForm=Conv	3	acl	_	_
+3	kiisen	kiis	VERB	_	Tense=Past|VerbForm=Part	4	acl	_	_
+4	yum	yum	NOUN	_	Case=Nom|Number=Sing	5	cop	_	_
+5	ügüee	ug	VERB	_	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-73
+# text = öngörö-tör saruul bailaa
+# text[eng] = he was (mentally) healthy up to the moment he died
+1	öngörö-tör	öngörö	NOUN	_	Case=Nom|Number=Sing	2	obl	_	_
+2	saruul	saruul	ADJ	_	Degree=Pos	3	amod	_	_
+3	bailaa	bai	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = mvf_ordos-74
+# text = gerteen kari-magca nadad bicig ilgee
+# text[eng] = right after arriving home, send me a letter!
+1	gerteen	gerteen	NOUN	_	Case=Dat|Number=Sing	2	obl	_	_
+2	kari-magca	kari	VERB	_	Tense=Past|VerbForm=Inf	4	acl	_	_
+3	nadad	nad	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	bicig	bicig	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
+5	ilgee	ilgeh	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+
+# sent_id = mvf_ordos-75
+# text = bi budaagaan ide-seer yabuyaa
+# text[eng] = I will go after having eaten
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	budaagaan	budaa	NOUN	_	Case=Acc|Number=Sing	3	obl	_	_
+3	ide-seer	ide	VERB	_	Tense=Past|VerbForm=Inf	4	acl	_	_
+4	yabuyaa	yabu	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-76
+# text = yabu-saar arban negen üdür bolji
+# text[eng] = eleven days have passed since he left
+1	yabu-saar	yabu	VERB	_	Tense=Past|VerbForm=Inf	3	acl	_	_
+2	arban	arban	NUM	_	NumType=Card	3	nummod	_	_
+3	negen	negen	NUM	_	NumType=Card	4	nummod	_	_
+4	üdür	üdür	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
+5	bolji	boloh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-77
+# text = olood sura-kulaa, jurgaan akani kelebe
+# text[eng] = after he had found and interrogated (them), the six brothers said
+1	olood	oloo	VERB	_	Tense=Past|VerbForm=Part	3	acl	_	_
+2	sura-kulaa	sura	VERB	_	Tense=Past|VerbForm=Conv	3	acl	_	_
+3	jurgaan	jurgaa	NOUN	_	Case=Acc|Number=Plur	5	obj	_	_
+4	akani	akan	NOUN	_	Case=Acc|Number=Plur	5	obj	_	_
+5	kelebe	kel	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = mvf_ordos-78
+# text = ci ese ire-külee, bi icikü-güee
+# text[eng] = if you don’t come, I won’t go
+1	cı	cı	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	ese	ese	VERB	_	Polarity=Neg|Tense=Pres|VerbForm=Conv	3	acl	_	_
+3	ire-külee	ire	VERB	_	Tense=Pres|VerbForm=Inf	0	root	_	_
+4	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	icikü-güee	icikü	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	acl	_	_
+
+# sent_id = mvf_ordos-79
+# text = ci kiideleen büteeji ab-maajin. . .
+# text[eng] = only after having completed all your tasks. . .
+1	cı	cı	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	kiideleen	kiideh	VERB	_	Tense=Past|VerbForm=Part	4	acl	_	_
+3	büteeji	bütee	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
+4	ab-maajin	abuh	VERB	_	Tense=Past|VerbForm=Inf	0	root	_	_
+
+# sent_id = mvf_ordos-80
+# text = cai uu-k-aar irelee
+# text[eng] = he has come (in order) to drink tea
+1	cai	cai	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	uu-k-aar	uu	VERB	_	Tense=Pres|VerbForm=Inf	4	acl	_	_
+3	irelee	irel	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-81
+# text = mede-nee
+# text[eng] = he knows
+1	mede-nee	med	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-82
+# text = uila-naa
+# text[eng] = he is weeping
+1	uila-naa	uila	VERB	_	Aspect=Prog|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-83
+# text = suu-ji bai-n
+# text[eng] = he is sitting
+1	suu-ji	suu	VERB	_	Tense=Pres|VerbForm=Conv	2	acl	_	_
+2	bai-n	bai	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = mvf_ordos-84
+# text = ire-lee
+# text[eng] = he has come
+1	ire-lee	irel	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-85
+# text = ter gerteen kari-laa
+# text[eng] = he went back home (and is now there)
+1	ter	ter	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gerteen	gerteen	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
+3	kari-laa	kari	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-86
+# text = bi yabu-laa
+# text[eng] = I am just about to go (literally: ‘I have gone’)
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	yabu-laa	yabu	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-87
+# text = tere nege minggan saikan mori
+# text[eng] = those one thousand beautiful horses
+1	tere	tere	DET	_	PronType=Dem	2	det	_	_
+2	nege	nege	NUM	_	NumType=Card	4	nummod	_	_
+3	minggan	minggan	NUM	_	NumType=Card	4	nummod	_	_
+4	saikan	saikan	ADJ	_	Degree=Pos	5	amod	_	_
+5	mori	mori	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
+
+# sent_id = mvf_ordos-88
+# text = ter nadad bicig biciji
+# text[eng] = he wrote me a letter
+1	ter	ter	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	nadad	nad	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	bicig	bicig	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	biciji	bicig	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-89
+# text = manggusiig ala-san baatur
+# text[eng] = the hero who has killed the demon
+1	manggusiig	manggu	NOUN	_	Case=Acc|Number=Sing	2	obj	_	_
+2	ala-san	ala	VERB	_	Tense=Past|VerbForm=Part	3	acl	_	_
+3	batuur	batuur	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = mvf_ordos-90
+# text = nege mori abci, keleji: ci ene mor-iig unaad. . .
+# text[eng] = he took a horse and said: sit on this horse and...
+1	nege	nege	NUM	_	NumType=Card	2	nummod	_	_
+2	mori	mori	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
+3	abci	abuh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	root	_	_
+4	keleji	kel	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	conj	_	_
+5	ci	cı	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+6	ene	ene	DET	_	PronType=Dem	7	det	_	_
+7	mor-iig	mori	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
+8	unaad	unah	VERB	_	Tense=Pres|VerbForm=Inf	0	xcomp	_	_
+
+# sent_id = mvf_ordos-91
+# text = cinggis kaan minggan aba ködölgöji. . .
+# text[eng] = Chinggis Khan sent one thousand hunters and...
+1	cinggis	cinggis	PROPN	_	Case=Nom	2	compound	_	_
+2	kaan	kaan	PROPN	_	Case=Nom	5	nsubj	_	_
+3	minggan	minggan	NUM	_	NumType=Card	4	nummod	_	_
+4	aba	aba	NOUN	_	Case=Acc|Number=Plur	5	obj	_	_
+5	ködölgöji	ködölgö	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+7	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mvf_ordos-92
+# text = cinggis koyuuliin ala-san-ii-n üjeed
+# text[eng] = Chinggis saw that he [another person] had killed both of them and...
+1	cinggis	cinggis	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	koyuuliin	koyuul	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
+3	ala-san	ala	VERB	_	Tense=Past|VerbForm=Part	4	acl	_	_
+4	ii-n	ii	PRON	_	Case=Acc|Number=Sing|Person=3	6	obj	_	_
+5	üjeed	üj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = mvf_ordos-93
+# text = shara ünege yabukuin üji-b=üü
+# text[eng] = did you see the yellow fox run?
+1	shara	shara	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	ünege	üneg	ADJ	_	Degree=Pos	3	amod	_	_
+3	yabukuin	yabu	VERB	_	Tense=Past|VerbForm=Inf	4	acl	_	_
+4	üji-b=üü	üj	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
+
