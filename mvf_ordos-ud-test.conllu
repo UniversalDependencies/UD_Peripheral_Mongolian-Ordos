@@ -57,7 +57,7 @@
 # text = Tengeriin unaga boroon orno.
 # text[eng] = Heaven's gift — rain — will fall.
 1	Tengeriin	tenger	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
-2	unaga	unaga	NOUN	_	Case=Nom|Number=Sing	3	conj	_	_
+2	unaga	unaga	NOUN	_	Case=Nom|Number=Sing	3	parataxis	_	_
 3	boroon	boroon	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	orno	or	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
