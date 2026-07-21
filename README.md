@@ -1,86 +1,50 @@
-# Summary
+Summary
+UD_Peripheral_Mongolian-Ordos is a treebank of Ordos, a Mongolic language variety spoken in the Ordos region of Inner Mongolia, China. The treebank consists of grammatical example sentences in Latin transliteration, manually annotated according to Universal Dependencies guidelines.
 
-UD_Peripheral_Mongolian-Ordos is a treebank of Ordos, a Mongolic language
-variety spoken in the Ordos region of Inner Mongolia, China. The treebank
-consists of grammatical example sentences in Latin transliteration, manually
-annotated according to Universal Dependencies guidelines.
+Introduction
+The Ordos treebank contains 80 sentences (274 tokens) of Ordos, a variety of Peripheral (Southern) Mongolian. The data consist of grammatical example sentences, some of which are drawn from Georg (2003). The sentences are presented in Latin transliteration and are accompanied by English translations.
 
-# Introduction
+All sentences are manually annotated with lemmas, universal part-of-speech tags (UPOS), morphological features, and dependency relations. The annotation prioritizes UD core morphological features and dependency relations. A small number of language-specific layered features (for possessive agreement) and dependency subtypes are used to capture distinctions that are morphologically or syntactically overt in Ordos. In addition, some Ordos-specific morphological categories that do not correspond to any feature in the universal inventory (namely derivational categories on numerals and focus marking) are encoded in the MISC column, in accordance with UD conventions for annotations that are not part of the universal feature inventory.
 
-The Ordos treebank contains 93 sentences (335 tokens) of Ordos, a variety of
-Peripheral (Southern) Mongolian. The data consist of grammatical example
-sentences, some of which are drawn from Georg (2003). The sentences are
-presented in Latin transliteration and are accompanied by English
-translations.
+Morphological annotation
 
-All sentences are manually annotated with lemmas, universal part-of-speech
-tags (UPOS), morphological features, and dependency relations. The annotation
-prioritizes UD core morphological features and dependency relations, while
-introducing a small number of language-specific features and relations to
-capture distinctions that are morphologically or syntactically overt in Ordos.
+All UD core features used in the treebank take standard universal values. Two language-specific layered features are used to mark possessive agreement on nouns:
 
-## Morphological annotation
+`Number[psor]` — number of the possessor (values: `Sing`, `Plur`)
+`Person[psor]` — person of the possessor (values: `1`, `2`, `3`)
 
-UD core features account for 96.57% (733) of the feature annotations, while
-language-specific features account for 3.43% (26). The language-specific
-feature-value pairs used in this treebank are:
+The following Ordos-specific morphological information is encoded in the MISC column rather than FEATS, as it does not correspond to any category in the universal feature inventory:
 
-* `Derivation=Collective`
-* `Derivation=Iterative`
-* `Derivation=Multiplicative`
-* `Focus=Only`
-* `Number[psor]=1`
-* `Number[psor]=Plur`
-* `Number[psor]=Sing`
-* `Person[psor]=1`
-* `Person[psor]=2`
-* `Person[psor]=3`
+`Derivation=Collective` — collective derivation on numerals (e.g. *gurb.uul* 'three together')
+`Derivation=Multiplicative` — multiplicative derivation on numerals (e.g. *gurban.tai* 'three times')
+`Derivation=Iterative` — iterative derivation on numerals (e.g. *gurba.da* 'three times over')
+`Focus=Only` — restrictive focus particle (e.g. *gurba.kan* 'only three')
 
-These features encode possessive suffixes on nouns, derivational morphology on
-verbs, and focus particles in discourse. Possessive agreement
-(`Person[psor]`, `Number[psor]`) is marked on the nominal head, and focus
-particles (`Focus=Only`) are annotated at the clausal level.
+Dependency annotation
 
-## Dependency annotation
+UD core relations are used throughout the treebank. The following language-specific dependency subtypes are used:
 
-UD core relations account for 94.93% (318) of the dependency annotations,
-while language-specific subtypes account for 5.07% (17). The
-language-specific dependency relations used in this treebank are:
+`det:poss` — possessive determiner
+`nmod:poss` — possessive nominal modifier
+`nmod:tmod` — temporal nominal modifier
+`obl:agent` — agent of a passive construction
+`obl:tmod` — temporal oblique modifier
 
-* `det:poss`
-* `nmod:tmod`
-* `obl:agent`
-* `obl:comit`
-* `obl:instr`
-* `obl:than`
-* `obl:time`
-* `obl:tmod`
-* `subj`
+Acknowledgments
 
-# Acknowledgments
+The Ordos treebank was created by Wenchao Li and Haitao Liu. The annotation of lemmas, part-of-speech tags, morphological features, and dependency relations was carried out manually according to the Universal Dependencies guidelines. Some of the example sentences are drawn from Georg (2003).
 
-The Ordos treebank was created by Wenchao Li and Haitao Liu. The annotation
-of lemmas, part-of-speech tags, morphological features, and dependency
-relations was carried out manually according to the Universal Dependencies
-guidelines. Some of the example sentences are drawn from Georg (2003).
+We are especially grateful to Daniel Zeman for his guidance in setting up the treebank repository and for his help with the Universal Dependencies workflow. We also thank the Universal Dependencies community for their support during the preparation and release of this treebank.
 
-We are especially grateful to Daniel Zeman for his guidance in setting up the
-treebank repository and for his help with the Universal Dependencies workflow.
-We also thank the Universal Dependencies community for their support
-during the preparation and release of this treebank.
+References
 
-## References
+Georg, Stefan. 2003. Ordos. In Juha Janhunen (ed.), *The Mongolic Languages*, 193–209. London: Routledge.
 
-* Georg, Stefan. 2003. Ordos. In Juha Janhunen (ed.), *The Mongolic
-  Languages*, 193–209. London: Routledge.
+Changelog
 
-# Changelog
-
-* 2026-11-15 v2.19
-  * Initial release in Universal Dependencies.
-
-<pre>
-=== Machine-readable metadata (DO NOT REMOVE!) ================================
+2026-11-15 v2.19
+Initial release in Universal Dependencies.
+ 
 Data available since: UD v2.19
 License: CC BY-SA 4.0
 Includes text: yes
@@ -94,5 +58,3 @@ Relations: manual native
 Contributors: Li, Wenchao; Liu, Haitao
 Contributing: here
 Contact: widelia@zju.edu.cn
-===============================================================================
-</pre>
