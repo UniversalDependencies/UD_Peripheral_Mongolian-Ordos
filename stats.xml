@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>80</sentences><tokens>274</tokens><words>274</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>80</sentences><tokens>274</tokens><words>274</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="161" /><!-- bi, bai, ., yabu, gurba, ger, tere, nege, ög, bicig, ci, ene, ide, kaan, kel -->
+  <forms unique="213" /><!-- bi, ., bain, nege, ter, baina, ene, kün, tere, ,, boroon, cinggis, cı, ger, jabci- -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="12">
+    <tag name="ADJ">14</tag><!-- ündür, aim, bayan, bogoni, cagaan, ekener, jiketei, karada, saikan, saruul -->
+    <tag name="ADP">2</tag><!-- -du, deer -->
+    <tag name="ADV">5</tag><!-- dotoro, erte, gagcakan, koisinain, sayahan -->
+    <tag name="AUX">2</tag><!-- yum -->
+    <tag name="DET">9</tag><!-- tere, ene, manai, negen -->
+    <tag name="NOUN">84</tag><!-- ger, kün, küni, yabu, üdür, bagsh, bicig, boroon, budaa, cag -->
+    <tag name="NUM">14</tag><!-- gurba, nege, minggan, arban, negen -->
+    <tag name="PART">1</tag><!-- =ci -->
+    <tag name="PRON">33</tag><!-- bi, ci, ter, cı, ta, bid, cam, mini, nad, nada -->
+    <tag name="PROPN">5</tag><!-- cinggis, balgasun, juu-kung-buu, kaan -->
+    <tag name="PUNCT">15</tag><!-- ., , -->
+    <tag name="VERB">90</tag><!-- bai, yabu, ög, ide, suu, abuh, boloh, jabci, kel, or -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="40">
+    <feat name="Aspect" value="Hab" upos="VERB">1</feat><!-- malladag -->
+    <feat name="Aspect" value="Prog" upos="VERB">3</feat><!-- gele-deg, ide-deg, uila-naa -->
+    <feat name="Case" value="Abl" upos="ADJ,NOUN,PRON">9</feat><!-- ger-t-ees, küni-cee, nada-duruun, nutug-aas-aan, tengerinees, öbödög-cee, öbösön-öös, üdüre-es, ündür-ees -->
+    <feat name="Case" value="Acc" upos="NOUN,PRON">19</feat><!-- aba, akani, alaga, bara.mai, bicig, budaa, budaagaan, büteeji, garaa, jurgaan -->
+    <feat name="Case" value="All" upos="NOUN,PRON">3</feat><!-- ger-lüü, noyon-oi-luu, tere-lüü -->
+    <feat name="Case" value="Com" upos="NOUN,PRON">4</feat><!-- camtai, ekener-tei, gitad-laa, küüken-tei -->
+    <feat name="Case" value="Dat" upos="NOUN,PRON,PROPN">14</feat><!-- nadad, Gertee, bags-iin-du, balgasun, cagtu, camadu, camd, gerteen, goto-da-ki, nada -->
+    <feat name="Case" value="Gen" upos="NOUN,PRON">7</feat><!-- Tanii, Tengeriin, bags-iin-iin, bicigiin, goliin, kaani, kürgenii -->
+    <feat name="Case" value="Ins" upos="NOUN">3</feat><!-- sük-eer, eredeen -->
+    <feat name="Case" value="Nom" upos="NOUN,PRON,PROPN">57</feat><!-- bi, kün, ter, cı, kaan, küni, mori, üdür, aav, batuur -->
+    <feat name="Degree" value="Pos" upos="ADJ">11</feat><!-- ündür, aim-tagai, bayan, bogoni, cagaan, jiketei, karada-ji, saikan, saruul, teneg -->
+    <feat name="Mood" value="Des" upos="VERB">1</feat><!-- ide-y -->
+    <feat name="Mood" value="Imp" upos="VERB">4</feat><!-- gecee, kaj-uujai, ög, ögööröi -->
+    <feat name="Mood" value="Ind" upos="VERB">42</feat><!-- bain, baina, bai-ji, baiji, baikhgui, bailaa, bainaa, baisan, biciji, bisi -->
+    <feat name="Mood" value="Opt" upos="VERB">5</feat><!-- abuyan, jujaara-Ø, kalaa-uujai, orotugai, ög-yön -->
+    <feat name="Number" value="Plur" upos="NOUN,NUM,PRON,VERB">17</feat><!-- aba, akani, baisan, bida, büteeji, gurb.uul, ide-y, jujaara-Ø, jurgaan, kelebe -->
+    <feat name="Number" value="Sing" upos="NOUN,PRON,PROPN,VERB">150</feat><!-- bi, bain, baina, kün, ter, boroon, cı, ger, küni, nadad -->
+    <feat name="Number[psor]" value="Plur" upos="DET,NOUN">2</feat><!-- Manai, nutug-aas-aan -->
+    <feat name="Number[psor]" value="Sing" upos="NOUN">5</feat><!-- bags-iin-du, bags-iin-iin, eredeen, mal-cin, noyon-oi-luu -->
+    <feat name="NumType" value="Card" upos="NUM">14</feat><!-- nege, minggan, arban, gurb.uul, gurba.da, gurba.kan, gurba.lji.la, gurban, gurban.tai, negen -->
+    <feat name="Person" value="1" upos="PRON,VERB">36</feat><!-- bi, bain, nadad, abuyan, baina, bida, husne, icikü-güee, ide-y, kiiy -->
+    <feat name="Person" value="2" upos="PRON,VERB">13</feat><!-- cı, Tanii, camadu, camd, camtai, ci, gecee, kalaa-uujai, mini, ta -->
+    <feat name="Person" value="3" upos="PRON,VERB">33</feat><!-- ter, bain, baina, bai-ji, bai-n, baiji, baikhgui, bailaa, bainaa, baisan -->
+    <feat name="Person[psor]" value="1" upos="DET,NOUN">3</feat><!-- Manai, kürgenii, nutug-aas-aan -->
+    <feat name="Person[psor]" value="2" upos="NOUN">1</feat><!-- mal-cin -->
+    <feat name="Person[psor]" value="3" upos="NOUN">4</feat><!-- bags-iin-du, bags-iin-iin, eredeen, noyon-oi-luu -->
+    <feat name="Polarity" value="Neg" upos="ADJ,VERB">10</feat><!-- baikhgui, bisi, boloo-ügüei, ekener-güei, ese, icikü-güee, kaj-uujai, orotugai, yabu.si-ügüei, ügüee -->
+    <feat name="Poss" value="Yes" upos="DET">1</feat><!-- Manai -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">8</feat><!-- ene, tere, ter, tere-lüü -->
+    <feat name="PronType" value="Ind" upos="DET">1</feat><!-- Negen -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">33</feat><!-- bi, ter, cı, nadad, Manai, Tanii, bicige, bida, camadu, camd -->
+    <feat name="Tense" value="Fut" upos="VERB">4</feat><!-- kiiy, orno, yabu-ku-im, yabuyaa -->
+    <feat name="Tense" value="Past" upos="VERB">31</feat><!-- ab-maajin, ala-san, alagdasan, baiji, bailaa, baisan, biciji, dailalciba, gar-san, ide-seer -->
+    <feat name="Tense" value="Pres" upos="VERB">34</feat><!-- bain, baina, bai-ji, bai-n, baikhgui, bainaa, bisi, bolji, boloo-ügüei, cida-n -->
+    <feat name="VerbForm" value="Conv" upos="VERB">13</feat><!-- olji, suuji, ese, garci, ge-beci, hürgej, ide-ji, sura-kulaa, suu-ji, ögöj -->
+    <feat name="VerbForm" value="Fin" upos="VERB">29</feat><!-- baina, bai-ji, baiji, baikhgui, biciji, boloo-ügüei, gele-deg, husne, ide-deg, ire-lee -->
+    <feat name="VerbForm" value="Inf" upos="NUM,VERB">14</feat><!-- jabci-, ab-maajin, abku, cida-n, gurba.da, gurba.lji.la, ide-seer, ire-külee, jodo-ku, yabu-saar -->
+    <feat name="VerbForm" value="Part" upos="VERB">11</feat><!-- ala-san, alagdasan, dusun, gar-san, güi, idesen, kiideleen, kiisen, olood, taslasan -->
+    <feat name="Voice" value="Pass" upos="VERB">1</feat><!-- alagdasan -->
+    <feat name="Voice" value="Rcp" upos="VERB">1</feat><!-- dailalciba -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="24">
+    <dep name="acl">20</dep>
+    <dep name="advcl">3</dep>
+    <dep name="advmod">5</dep>
+    <dep name="amod">10</dep>
+    <dep name="case">2</dep>
+    <dep name="compound">6</dep>
+    <dep name="conj">4</dep>
+    <dep name="cop">2</dep>
+    <dep name="det">8</dep>
+    <dep name="det:poss">1</dep>
+    <dep name="discourse">1</dep>
+    <dep name="iobj">6</dep>
+    <dep name="nmod:poss">5</dep>
+    <dep name="nmod:tmod">2</dep>
+    <dep name="nsubj">39</dep>
+    <dep name="nummod">9</dep>
+    <dep name="obj">17</dep>
+    <dep name="obl">24</dep>
+    <dep name="obl:agent">1</dep>
+    <dep name="obl:tmod">4</dep>
+    <dep name="parataxis">1</dep>
+    <dep name="punct">15</dep>
+    <dep name="root">80</dep>
+    <dep name="xcomp">9</dep>
+  </deps>
+</treebank>
